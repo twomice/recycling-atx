@@ -43,6 +43,8 @@
     "watchify": "^2.4.0"
   },
   "dependencies": {
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "react-loader": "^2.0.0",
+    "spin": "0.0.1"
   }
 }
