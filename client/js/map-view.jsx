@@ -1,6 +1,9 @@
 import React from 'react';
 
+import Loader from 'react-loader';
+
 import findAccuratePosition from './accurateposition'
+
 
 export default class MapView extends React.Component {
 
