@@ -21,11 +21,12 @@ export default class MapView extends React.Component {
           lat: position.coords.latitude,
           lng: position.coords.longitude
         });
-        this.props.setSpinner(false);
       });
     } else {
       /* geolocation IS NOT available */
     }
+    /* Hide spinner regardless of location availability. */
+    this.props.setSpinner(false);
   }
 
   viewDetailsOnClick(id) {
